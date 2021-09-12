@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task List</title>
+  <link rel="stylesheet" href="style/style.css">
+  <link rel="stylesheet" href="style/all.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>Task List</h1>
+  </header>
+  <!--  -->
+
+  <!-- Section Ambil Data -->
+  <section id = 'inputData'>
+    <div class="header">
+      <h2>Masukkan Data</h2>
+    </div>
+    <div class="container">
+      <form >
+        <div class="input text">
+          <label for="task">Masukkan Hal yang ingin dilakukan:</label>
+          <br>
+          <input type="text" class = 'taskInput' name="task" required><br>
+        </div>
+        <div class="input date">
+          <label for="date">Masukkan Tanggal Berapa ingin diselesaikan:</label>
+          <br>
+          <input type="date" class = 'dateInput' name="date" required>
+        </div>
+        <div class="input submit">
+          <input type="submit" value="Submit">
+          <div class="clear"></div>
+        </div>
+      </form>
+    </div>
+  </section>
+  <!--  -->
+
+  <!-- Section Progress Task List -->
+  <section id="progress">
+    <div class="header">
+      <h2>Sedang Berlangsung</h2>
+    </div>
+    <div class="container">
+      
+      <p>Data Tidak Ditemukan</p>
+
+
+      <!-- <div class="progressCard">
+        <div class="task">
+          <h3>Belajar C++</h3>
+          <p>2021-07-21</p>
+        </div>
+        <div class="buttons">
+          <div class="doneButton button">
+            <i class="fas fa-check"></i>
+          </div>
+        </div>
+        <div class="clear"></div>
+      </div>
+      <div class="progressCard">
+        <div class="task">
+          <h3>Belajar C++</h3>
+          <p>2021-07-21</p>
+        </div>
+        <div class="buttons">
+          <div class="doneButton button">
+            <i class="fas fa-check"></i>
+          </div>
+        </div>
+        <div class="clear"></div>
+      </div> -->
+    </div>
+  </section>
+  <!--  -->
+
+  <section id="done">
+    <div class="header"><h2>Sudah Selesai</h2></div>
+    <div class="container">
+
+      <p>Data Tidak Ditemukan</p>
+
+
+
+
+      <!-- <div class="doneCard">
+        <div class="task">
+          <h3>Belajar C++</h3>
+          <p>2021-07-21</p>
+        </div>
+        <div class="buttons">
+          <div class="button undoButton">
+            <i class="fas fa-undo-alt"></i>
+          </div>
+          <div class="button trashButton">
+            <i class="fas fa-trash"></i>
+          </div>
+        </div>
+        <div class="clear"></div>
+      </div> -->
+    </div>
+  </section>
+
+
+
+  <script src="script/main.js"></script>
+  <script src="tes.js"></script>
+</body>
+</html>

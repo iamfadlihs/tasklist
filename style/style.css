@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=DM+Sans&display=swap');
+*{
+  margin : 0;
+  padding : 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #FFF5DA;
+}
+header{
+  background-color: #5D534A;
+  padding : 15px;
+  color : #eee;
+  font-family: 'Acme',sans-serif;
+}
+section {
+  font-family: 'DM Sans',serif;
+  margin : 25px auto;
+  border-radius: 10px;
+  box-shadow: 0px 10px 5px -7px rgb(36, 34, 34);
+  max-width: 930px;
+  background-color : white;
+}
+.header{
+  padding : 20px 20px 10px 20px;
+  background-color: #5D534A;
+  color : white;
+  border-radius: 10px 10px 0 0;
+  font-family: 'Acme',
+  sans-serif;
+}
+.container{
+  padding : 20px 25px 25px 25px;
+}
+.input:nth-child(1),.input:nth-child(2){
+  margin-bottom : 15px; 
+}
+
+label{
+  font-size: 14px;
+  display : inline-block;
+  margin-bottom : 3px;
+}
+.taskInput, .dateInput{
+  width : 100%;
+  padding : 10px;
+  font-size: 19px;
+  border-radius: 5px;
+  outline: none;
+  background-color: #FFF5DA;
+  border : 2px solid #5D534A;
+}
+.submit input{
+  float: right;
+  padding : 12px;
+  border-radius: 5px;
+  background-color : #5D534A;
+  color : white;
+  font-size : 18px;
+  outline : none;
+  border : 0;
+  box-shadow: 0px 6px 3px -2.5px #333333;
+}
+.submit input:active{
+  position: relative;
+  top : 6px;
+  box-shadow: 0 0 0;
+}
+.submit input:hover{
+  cursor: pointer;
+}
+.clear{
+  clear: both;
+}
+#progress .container,#done .container{
+  padding-bottom : 5px;
+}
+.progressCard, .doneCard{
+  margin-bottom: 20px;
+  border: 2px solid #5D534A;
+  padding : 15px;
+  border-radius: 10px;
+}
+.button i{
+  display : inline-block;
+  color : #FFF5DA;
+  font-size : 28px;
+}
+.button:hover{
+  cursor: pointer;
+}
+.button{
+  background-color: #5D534A;
+  border-radius: 5px;
+  float : left;
+  padding : 5px;
+  box-shadow: 0px 6px 3px -2.5px #333333;
+}
+.button:last-child{
+  margin-left: 8px;
+}
+.buttons{
+  float : right;
+  height: 100%;
+  position: relative;
+  top : 2px;
+}
+.task{
+  float : left;
+}
+.button:active{
+  position: relative;
+  top : 2.5px;
+  box-shadow: 0 0 0;
+}
+#progress .container>p, #done .container>p{
+  margin-bottom: 20px;
+}
+label:hover{
+  cursor: auto;
+}
